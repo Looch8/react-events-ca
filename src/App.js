@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Pokemon from "./Pokemon";
 
 // Page that lets us increase or decrease
 // How many pokemon are on screen
@@ -23,6 +24,8 @@ class App extends React.Component {
 		return (
 			<div>
 				<h1>Pokemon page</h1>
+
+				<Pokemon></Pokemon>
 			</div>
 		);
 	}
